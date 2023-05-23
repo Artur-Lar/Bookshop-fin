@@ -1,0 +1,27 @@
+{
+  "name": "book-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BS-script-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
