@@ -1,4 +1,4 @@
-import "./style.scss";
+//import "./style.scss";
 document.addEventListener("DOMContentLoaded", function () {
   let startIndex = 0;
   const maxResults = 6;
